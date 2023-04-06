@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int rahim=10;
-    float karim=2.5;
-    char butol='x';
-    printf("%d %0.2f %c",rahim,karim,butol);
+    int rahim, karim, butul;
+    scanf("%d %f %c", &rahim,&karim,&butul);
+    printf("%d %0.2f %c", rahim,karim,butul);
     return 0;
 
 }
@@ -14,3 +13,12 @@ int main()
     // printf("\\\n\t");
     // printf("%%\n\t");
     // printf("I love Trek cycle,mackbook,iphone");
+
+
+
+
+
+    //  int rahim=10;
+    // float karim=2.5;
+    // char butol='x';
+    // printf("%d %0.2f %c",rahim,karim,butol);
